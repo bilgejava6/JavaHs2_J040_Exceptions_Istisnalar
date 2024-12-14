@@ -1,5 +1,7 @@
 package com.muhammet;
 
+import java.io.FileNotFoundException;
+
 public class Runner_Throw_Kullanimi {
     public static void main(String[] args) {
         try{
@@ -14,7 +16,7 @@ public class Runner_Throw_Kullanimi {
      * @param password - 8-16 karakter aralığında bir şifre giriniz.
      * @return kriptolanmış değer String olarak dönülür
      */
-    private static String securePassword(String password) throws Exception {
+    private static String securePassword(String password) throws Exception, FileNotFoundException {
         if(password.length()<8 || password.length()>16) {
             // sorunlu bir durum şifre kriptolanamaz.
             // checked exception
