@@ -38,7 +38,7 @@ public class Runner_Soru1 {
          * bir kiralama listesi olacak burada kiralaması yapılan odaların bilgileri tutulacak. mesela;
          * ODA-1, Ahmet, 12/12/2024 - 16/12/2024
          * ODA-1, Deniz, 20/12/2024 - 01/01/2025
-         * ODA-2, Hakan, 13/12/2024 - 14/12/2024
+         * ODA-2, Hakan, 13/12/2024 - 14/12/20242
          *
          * kiralamaYap(oda adı, musteri adi, giris tarihi, konaklama suresi) adında bir method yazınız.
          * bu method kiralama işlemi yapacak, eğer ilgili tarihlerde oda dolu ise hata fırlatacak.
